@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+        background-image: url('fondo.jpg');
+        background-size: cover; /* O ajusta según tus preferencias */
+        background-position: center center; /* O ajusta según tus preferencias */
+        background-repeat: no-repeat;
+    
+}
+
+.container {
+    text-align: center;
+    background-color: #00000086;
+    border: 3px solid #00000059;
+    border-radius: 58px;
+    padding: 10%;
+}
+
+h1 {
+    color: #008080;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+nav{
+    text-decoration: none;
+}
+button {
+        background-color: #636363;
+        text-align: center;
+        color: white;
+        padding: 15px 25px;
+        border: 2px solid #44444400;
+        border-radius: 58px;
+        cursor: pointer;
+        margin: 1%;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto; 
+}
+
+#welcomeMessage {
+    color: #008080;
+    font-size: 1.5em;
+}
+.tit{
+    color: #f0f0f0;
+    padding: 15px;
+    text-align: center
+}
+.decora{
+    background-color: #20203f; /* Color de fondo del cuadro */
+    padding: 15px; /* Espaciado interno del cuadro */
+    border: 5px solid #0e426d; /* Borde del cuadro */
+    border-radius: 58px; /* Bordes redondeados del cuadro */
+    text-align: center
+}
+
+.hidden {
+    display: none;
+}
+.button1 {
+    background-color:#171a4a;
+    color: white;
+    padding: 7px 15px;
+    border: 2px solid #44444400;
+    border-radius: 58px;
+    cursor: pointer;
+    margin: auto;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #44444400;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000
+}   

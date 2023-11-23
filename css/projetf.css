@@ -1,0 +1,352 @@
+/* Estilos CSS aquí */
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover; /* O ajusta según tus preferencias */
+    background-position: center center; /* O ajusta según tus preferencias */
+    background-repeat: no-repeat;
+
+}
+header {
+    border-radius: 58px;
+    background-color: #1465bba6;
+    color: #000000;
+    padding: 2px 2px;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barrasocialfija ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    align-items: center; /* Centra los íconos verticalmente */
+    padding: 0;
+    margin: 0; /* Elimina cualquier margen predeterminado que pueda afectar la alineación */
+}
+
+.barrasocialfija ul li {
+    margin-right: 10px;
+}
+
+.barrasocialfija ul li a {
+    color: #fff;
+    background: #9e9e9eb7;
+    padding: 8px;
+    text-decoration: none;
+    transition: all 500ms ease;
+    border-radius: 50%;
+}
+
+.barrasocialfija ul li a:hover {
+    background: #000;
+    padding: 10px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    height: 0px; /* Ajusta la altura según tus necesidades */
+    z-index: 10%;
+}
+
+#loginFormContainer,
+#welcomeContainer {
+    background-color: #20203f; /* Color de fondo del cuadro */
+    padding: 15px; /* Espaciado interno del cuadro */
+    border: 5px solid #0e426d; /* Borde del cuadro */
+    border-radius: 58px; /* Bordes redondeados del cuadro */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+label {
+    display: block; /* Muestra cada etiqueta en una línea nueva */
+    margin-bottom: 7px; /* Ajusta el margen entre las etiquetas */
+}
+
+input {
+    width: 50%; /* Ajusta el ancho de los campos de entrada */
+    padding: 5px; /* Espaciado interno de los campos de entrada */
+    margin-top: 2px; /* Ajusta el margen superior de los campos de entrada */
+}
+
+#welcomeMessage {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #333;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.welcome-banner {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 2px;
+}
+
+.container {
+    max-width: 97%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes adicionales para el slider */
+/* Estilos CSS para el slider */
+.slider-container {
+    max-width: 70%; /* Ajusta según tus necesidades */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease; /* Cambiado a 'transform' para mejorar el rendimiento */
+}
+
+.slider-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.slider-item img {
+    width: 90%; /* Ajusta según tus necesidades */
+    height: 75%; /* Ajusta según tus necesidades */
+    border-radius: 15PX;
+    object-fit: cover; /* Ajusta para mantener la relación de aspecto y cubrir completamente el contenedor */
+}
+
+.info-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item {
+    flex: 0 0 50%;
+    padding: 20px;
+}
+
+.info-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-text {
+    float: left;
+    margin-right: 20px;
+}
+
+.carreras-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.carreras-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.carrera-item {
+    flex: 1px 1px 48%;
+    padding: 25px 25px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.contacto-container {
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.contact-section {
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 58px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 100px;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.contact-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+    margin-top: 20px;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #44444400;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000
+}
+button {
+    background-color:#171a4a;
+    color: white;
+    padding: 7px 15px;
+    border: 2px solid #44444400;
+    border-radius: 58px;
+    cursor: pointer;
+    margin: auto;
+}
+button:hover{
+    background-color:white;
+            color: #171a4a;
+}
+section {
+    margin-top: 60px; /* Ajusta el margen superior para dejar espacio para el menú fijo */
+    padding: 20px;
+}
+
+.social-button:hover {
+    opacity: 0.7; /* Reduce la opacidad al pasar el mouse para indicar interacción */
+}
+.container2 {
+    display: flex;
+    background-color: #00000086;
+    border: 3px solid #00000059;
+    border-radius: 58px;
+    padding: 7px;
+}
+
+.carreras {
+    flex: 1;
+    padding: 45px;
+    text-align: center;
+}
+
+.carreras img {
+    max-width: 90%; /* Asegura que las imágenes no se salgan de sus contenedores */
+    height: 90%;
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre la imagen */
+    border-radius: 40PX;
+    transition: transform 0.4s ease;
+}
+.carreras img:hover {
+    transform: scale(1.1); /* Escala la imagen al 120% del tamaño original al pasar el mouse */
+}
+h3 {
+    border: 2px solid #747171ce;
+    background-color: #50505091;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.titulo{
+    color: #000000;
+    border-radius: 8px;
+    padding: 1px 10%;
+    text-align: center;
+    font-family: 'Oswald', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inicio{    
+    background-color: #00000086;
+    border: 3px solid #00000059;
+    border-radius: 58px;
+    padding: 7px;
+    margin-top: auto;
+    padding: 1px;
+}
+.carre {
+    border: 4px solid #0c0c0c;
+    background-color: rgba(240, 240, 240, 0.377);
+    text-align: center;
+    margin-top: 3%;
+    color: #000000;
+    border-radius: 58px;
+    padding: 10px;
+}
+.title2{
+    background-color:#9c9c9c;
+    border: 4px solid #0c0c0c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 58px;
+    cursor: pointer;
+    margin: 3%;
+}
+a {
+    text-decoration: none;
+}
+.boton {
+    background-color: #636363;
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid #44444400;
+    border-radius: 58px;
+    cursor: pointer;
+    margin: 1%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}

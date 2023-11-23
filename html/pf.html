@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>E.E.T. Nº 1: Iniciar Sesión</title>
+    <link rel="stylesheet" href="pf.css">
+</head>
+
+<body>
+    <nav>
+    <a href="projetf.html"><button class="button1">Inicio</button></a>
+</nav>
+
+
+<div class="container">
+    <img class="logo" src="logo.png" alt="Logo del Colegio">
+    <h1>Iniciar Sesión</h1>
+    <form id="loginForm">
+        <label for="username" class="tit" aria-placeholder="ingresar">Nombre y Apellido:</label>
+        <input class="decora" type="text" id="username" required>
+
+        <label for="email" class="tit" aria-placeholder="ingresar">Email:</label>
+        <input class="decora" type="email" id="email" required>
+
+        <label for="comments" class="tit" aria-placeholder="ingresar">¿Por qué quieres entrar?</label>
+        <textarea class="decora" id="comments" rows="4" required></textarea>
+
+        <button type="button" id="loginButton">Iniciar Sesión</button>
+    </form>
+</div>
+
+<script src="pf.js"></script>
+</body>
+</html>
