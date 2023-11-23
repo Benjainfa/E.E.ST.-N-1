@@ -1,7 +1,7 @@
 /* Estilos CSS aquí */
 
 body {
-    background-image: url('fondo.jpg');
+    background-image: url('img/fondo.jpg');
     background-size: cover; /* O ajusta según tus preferencias */
     background-position: center center; /* O ajusta según tus preferencias */
     background-repeat: no-repeat;
